@@ -12,6 +12,7 @@ body{
     /*background-color: #65727C;*/
     background: linear-gradient(82deg, rgba(62,95,138,1) 13%, rgba(30,31,32,1) 52%, rgba(62,95,138,1) 69%, rgba(30,31,32,1) 77%);
     overflow-x: hidden;
+    width: 100vw;
 }
 /*Parte Header*/
 header{
