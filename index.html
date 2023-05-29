@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StormSilver</title>
+    <link rel="icon" type="image/png" href="Logo.png">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+  />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li> 
+                    <a href="#Home" > <img src="src/Images/Logo.png" alt="Logo Lobo StormSilver" class="Logo_img_head"></a>
+                </li>
+                <li>
+                    <a href="#Home">Home</a>
+                </li>
+                <li>
+                    <a href="#About">Sobre</a>
+                </li>
+                <li>
+                    <a href="#Team">Time</a>
+                </li>
+                <li>
+                    <a href="#Streams">Streams</a>
+                </li>
+                <li>
+                    <a href="#Sponsors">Patrocinadores</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Menu Mobile-->
+     <button class="button-mobile" onclick="toggleMenu()">
+        <i class="material-symbols-outlined"> menu </i>
+        <span>Menu</span>
+     </button>
+     
+     <nav class="menu-mobile" id="menu-mobile">
+        <button onclick="toggleMenu()">
+            <span>
+                <i class="material-symbols-outlined">close</i>
+            </span>
+        </button>
+        <button >
+            <span>
+               <a href="#Home"> <i class="material-symbols-outlined"> home </i> </a> <span class="mobile-text"> Home </span>
+            </span>
+        </button>
+        
+        <button>
+            <span>
+               <a href="#About"> <i class="material-symbols-outlined"> speaker </i> </a> <span class="mobile-text"> Sobre </span>
+            </span>
+        </button>
+        <button>
+            <span>
+               <a href="#Team"> <i class="material-symbols-outlined"> people </i> </a> <span class="mobile-text"> Time </span>
+            </span>
+        </button>
+        <button>
+            <span>
+               <a href="#Streams"> <i class="material-symbols-outlined"> people </i> </a> <span class="mobile-text"> Streams </span>
+            </span>
+        </button>
+        <button>
+            <span>
+               <a href="#Sponsors"> <i class="material-symbols-outlined"> business </i> </a> <span class="mobile-text"> Patrocinadores </span>
+            </span>
+        </button>
+     </nav>
+     <!--Fim Menu Mobile-->
+
+        <!-- Sessão Home/Boas Vindas-->
+        <section class="home" id="Home">
+                <div class="Container_Home">
+                    <div class="Title_SubTitle">
+                        <div class="Title_Welcome">
+                            <h1>Bem-vindos aos StormSilver </h1>
+                            
+                        </div>
+                        <div class="Sub_Title_Welcome">
+                            <h2>“Junte-se à matilha vencedora do<br>StormSilver.”</h2>
+                        </div>
+                    </div>
+                    
+                    <div    class="Home_Img">
+                        <img src="src/Images/Logo.png" alt="Logo Lobo StormSilver">
+                    </div>
+                </div>
+        </section>
+
+       <!--Sessão Sobre-->
+       <section class="about" id="About">
+        <!--Toda a Área do Sobre-->
+            <div class="Container_About">
+                <div class="Title_About">
+                    <h1>Sobre</h1>
+                </div>
+                <div class="Sub_Container">   
+                    <div class="About_Org">
+                        
+                        <p>
+                            Quando o assunto é competição, o StormSilver Valorant é sinônimo de excelência. Nós treinamos duro, jogamos com estratégia e encaramos cada partida 
+                            com determinação implacável. Nossa equipe é formada por jogadores habilidosos, que sabem trabalhar em equipe e estão prontos para enfrentar qualquer 
+                            desafio. Sob a orientação de um treinador experiente, estamos sempre em busca de melhorias, aprimorando nossas habilidades e nos preparando para a 
+                            próxima grande batalha. Junte-se a nós, e faça parte de uma organização que não tem medo de lutar pelo topo do ranking mundial.
+                        </p>
+                    </div>
+                    <div class="Img_Team">
+                            <img src="src/Images/Time.png" alt="Imagem ilustrativa do Time">
+                    </div>
+                </div>
+            </div>
+       </section>
+
+       <!--Sessão Time-->
+       <section class="team" id="Team">
+        <!--Todo a Area do time em que tem uma cor de fundo.-->
+            <div class="Container_Team">
+                <div class="Title_SubTitle_Team">
+                    <h1>Time</h1>
+                     <p>Nossa equipe de Valorant é formada por jogadores habilidosos e dedicados, que estão sempre em busca da vitória. Com Ryan "Ryzen" Silva, Max "Venom" Rodriguez, 
+                     Alex "EagleEye" Kim, Diego "Pyro" Martinez e Daniel "Thunder" Lee, estamos prontos para enfrentar qualquer desafio. Cada jogador tem suas próprias especialidades 
+                     e estilos de jogo, tornando nossa equipe uma ameaça multifacetada. Juntos, estamos determinados a alcançar o sucesso e a conquistar o topo dos rankings do Valorant.
+                     </p>
+                </div>  
+                    <!--Toda a Área das Imagens e Textos dos Jogadores-->
+                    <div class="Players">
+                        <div class="Player_1">
+                            <img src="src/Images/Player 1.png" alt="Player Ryan 'Ryzen' Silva">
+                            <b>Ryan "Ryzen" Silva</b>
+                            <p>Mestre do controle. Jogando como Controller, bloqueia visões e controla o mapa com habilidades táticas de zona.</p>
+                        </div>
+                        <div class="Player_2">
+                            <img src="src/Images/Player 2.png" alt="Player Alex 'EagleEye' Kim">
+                            <b>Alex "EagleEye" Kim</b>
+                            <p>Atirador de elite. Jogando como Duelist, elimina inimigos em combate direto com precisão letal.</p>
+                        </div>
+                        <div class="Player_3">
+                            <img src="src/Images/Player 3.png" alt="Player Diego 'Pyro' Martinez">
+                            <b>Diego "Pyro" Martinez</b>
+                            <p>Especialista em explosivos. Jogando como Initiator, cria oportunidades de ataque com granadas e habilidades de fogo.</p>
+                        </div>
+                        <div class="Player_4">
+                            <img src="src/Images/Player 4.png" alt="Player Max 'Venom' Rodriguez">
+                            <b>Max "Venom" Rodriguez</b>
+                            <p>Rei das táticas furtivas. Jogando como Sentinel, protege áreas e detecta a presença inimiga com habilidades furtivas.</p>
+                        </div>
+                        <div class="Player_5">
+                            <img src="src/Images/Player 5.png" alt="Player Daniel 'Thunder' Lee">
+                            <b>Daniel "Thunder" Lee</b>
+                            <p>Mestre da surpresa. Jogando como Controller, pega os inimigos desprevenidos com habilidades de choque.</p>
+                        </div>
+                    </div>
+
+
+            </div>
+       </section>
+
+       <!--Sessão dos Streams-->
+       <section class="streams" id="Streams">
+        <div class="Container_Streams">
+             <div class="Text_Streams">
+                <h1>Streams</h1>
+                <p>Bem-vindos aos streams oficiais da nossa organização! Aqui, você poderá acompanhar de perto as transmissões ao vivo dos nossos jogadores em diversas modalidades, 
+                    incluindo jogos de FPS, MOBA e muito mais. Com habilidades únicas e jogadas estratégicas, nossos jogadores vão te mostrar como dominar o campo de batalha e chegar 
+                    à vitória. Não perca nossos streams e venha torcer pelo nosso time em nossas competições oficiais e eventos especiais!
+                </p>
+             </div>
+            <!--Area das Fotos dos Streams-->
+             <div class="Area_Streams">
+                    <div class="Streamer_1"> 
+                        <img src="src/Images/Streamer 8 Julia Jaguar Rodrigues.png" alt="Foto da Streamer Julia 'Jaguar' Rodrigues">
+                        <p>Julia "JAGUAR" Rodrigues</p>
+                    </div>
+                    <div class="Streamer_2"> 
+                        <img src="src/Images/Streamer 5 Ana Acelera Pereira.png" alt="Foto da Streamer Ana 'Acelera' Pereira">
+                        <p>Ana "ACELERA" Pereira</p>
+                    </div>
+                    <div class="Streamer_3"> 
+                        <img src="src/Images/Streamer 6 Isabella Iris Santos.png" alt="Foto da Streamer Isabella 'Iris' Santos">
+                        <p>Isabella "IRIS" Santos</p>
+                    </div>
+                    <div class="Streamer_4"> 
+                        <img src="src/Images/Streamer 7 Maria Mare Oliveira.png" alt="Foto da Streamer Mari 'Mare' Oliveira">
+                        <p>Mari "Mare" Oliveira</p>
+                    </div>
+                    <div class="Streamer_5"> 
+                        <img src="src/Images/Streamer 1 Pedro Poderoso Silva.png" alt="Foto do Streamer Pedro 'Poderoso' Silva">
+                        <p>Pedro "PODEROSO" Silva</p>
+                    </div>
+                    <div class="Streamer_6"> 
+                        <img src="src/Images/Streamer 4 Rafael Relampago Costa.png" alt="Foto do Streamer Rafael 'Relampago' Costa">
+                        <p>Rafael "RELAMPAGO" Costa</p>
+                    </div>
+                    <div class="Streamer_7"> 
+                        <img src="src/Images/Streamer 2 Felipe Furia Santos.png" alt="Foto do Streamer Felipe 'Furia' Santos">
+                        <p>Felipe "FURIA" Santos</p>
+                    </div>
+                    <div class="Streamer_8"> 
+                        <img src="src/Images/Streamer 3 Gabriel Guerreiro Almeida.png" alt="Foto do Streamer Gabriel 'Guerreiro' Almeida">
+                        <p>Gabriel "GUERREIRO" Almeida</p>
+                    </div>
+             </div>
+        </div>
+       </section>
+
+       <!--Sessão Patrocinadores-->
+       <section class="sponsors" id="Sponsors">
+            <div class="Container_Sponsors">
+                <div class="Title_SubTitle_Sponsors">
+                    <h1>Patrocinadores</h1>
+                    <p>Bem-vindo à seção de patrocinadores do nosso site! Temos o prazer de contar com o apoio de empresas inovadoras e líderes de mercado que acreditam no 
+                        nosso time de E-sports de Valorant. Cada um dos nossos patrocinadores traz um conjunto único de habilidades e recursos para ajudar a levar a nossa 
+                        equipe ao próximo nível. Agradecemos a cada um deles por nos permitir competir em alto nível e estamos ansiosos para continuar construindo relacionamentos
+                         duradouros com essas marcas incríveis. Conheça mais sobre nossos patrocinadores abaixo e como eles estão ajudando a nos tornar campeões!
+                        </p>
+                </div>
+                <!--Área de Imagens e Textos dos Patrocinadores-->
+                <div class="Area_Sponsors">
+                    <div class="Sponsors_1">
+                        <h1>Titan Periféricos</h1>
+                        <img src="src/Images/Patrocinador 5 Titan Perifericos.png" alt="Patrocinador Titan Perifericos">
+                        <p>Prepare-se para a batalha gamer com Titan Periféricos - equipamentos de alta performance inspirados nos poderosos Titãs de Shingeki no Kyojin.</p>
+
+                    </div>
+                    <div class="Sponsors_2">
+                        <h1>StarLight Produção</h1>
+                        <img src="src/Images/Patrocinador 4 StarLight estudio de filmagem e producao.png" alt="Patrocinador StarLight Produção">
+                        <p>Transforme sua história em uma constelação de sucesso com StarLight - Produção e edição de vídeos/fotos de alta qualidade.</p>
+                    </div>
+                    <div class="Sponsors_3">
+                        <h1>Blast Suplementos</h1>
+                        <img src="src/Images/Patrocinador 3 Blast suplementos.png" alt="Patrocinador Blast Suplementos">
+                        <p>Explosão de energia nos seus jogos com Blast Suplementos - O combustível perfeito para gamers.</p>
+                    </div>
+                    <div class="Sponsors_4"> 
+                        <h1>FastFire Internet</h1>
+                        <img src="src/Images/Patrocinador 2 FastFire Internet.png" alt="Patrocinador FastFire Internet">
+                        <p>Dispare na frente da competição com FastFire Internet - a conexão ultrarrápida para gamers que buscam o melhor desempenho.</p>
+                    </div>
+                    <div class="Sponsors_5">
+                        <h1>FireFly Energy Drink</h1>
+                        <img src="src/Images/Patrocinador 1 Firefly Energy Drink.png" alt="Patrocinador FireFly Energy Drink">
+                        <p>O poder do fogo na palma da sua mão - FireFly Energy Drink, a bebida energética perfeita para gamers que buscam a vitória.</p>
+                    </div>
+
+                </div>
+            </div>
+       </section>
+
+       <!--Sessão Footer-->
+       <footer class="footer" id="Footer">
+        <div class="Container_Footer">
+            <div class="Texts_Footer">
+                <p>© 2023,StormSilver, Todos os direitos reservados. Talisson Dias</p>
+                <p>Contato: stormsilver@stormsilver.gg</p>
+                <p>Politica de Privacidade</p>
+                <p>Termos de Srviço</p>
+                <p>Vagas</p>
+            </div>
+            <div class="Logos_Links">
+               
+                <a href="https://www.instagram.com/" target="_blank"><img src="src/Images/instagram.png" alt="Logo instagram"></a>
+                <a href="https://pt-br.facebook.com/" target="_blank"><img src="src/Images/small-facebook-logo-blue-circle.png" alt="Logo facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="src/Images/twitter.png" alt="Logo twitter"></a>
+                <a href="http://twitch.com/" target="_blank"><img src="src/Images/twitch.png" alt="Logo twitch"></a>
+                <a href="https://youtube.com/" target="_blank"><img src="src/Images/youtube.png" alt="Logo youtube"></a>
+            </div>
+
+        </div>
+       </footer>
+
+       <script src="menu_mobile_script.js"></script>
+</body>
+</html>

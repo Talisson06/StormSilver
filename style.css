@@ -1,0 +1,781 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    scroll-behavior:smooth;
+    scroll-padding-top: 60px;
+   
+}
+body{
+    /*background-color: #65727C;*/
+    background: linear-gradient(82deg, rgba(62,95,138,1) 13%, rgba(30,31,32,1) 52%, rgba(62,95,138,1) 69%, rgba(30,31,32,1) 77%);
+}
+/*Parte Header*/
+header{
+    top: 0;
+    position:sticky;
+}
+
+.nav{
+    background-color: #283649;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 15px;
+}
+.nav_list a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 25px;
+}
+.Logo_img_head{
+    position: absolute;
+    width: 70px;
+    height: 65px;
+    left: 43px;
+    top: -1px;
+}
+
+/*Parte Home*/
+
+.home{
+    width:100%;
+    display: flex;
+    margin-bottom: 220px;
+}
+.Container_Home{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.Title_SubTitle{
+    display: flex;
+    margin-top: 0px;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+.Title_Welcome{
+    display: flex;
+    width: 800px;
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Helvetica Neue';
+}
+
+.Sub_Title_Welcome{
+    text-align: left;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';
+    
+}
+.Home_Img img{
+    width: 600px ;
+    height: 600px;
+    margin-top: 0px;
+    margin-left: 180px;
+}
+
+/*Parte Sobre a Org*/
+
+.about{
+    width:100%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.Container_About{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 95px;
+}
+.Sub_Container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    
+}
+.Title_About{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    
+}
+.About_Org p {
+    color: aliceblue;
+    text-align: justify;
+    width: 700px;
+    font-size: 25px;
+    font-family: 'Helvetica Neue', sans-serif;
+    padding-left: 30px;
+    margin-right: 50px;
+}
+.Img_Team{
+    display: flex;   
+    margin-left: 380px;
+    margin-top: 100px;
+}
+
+/*Parte sobre os Players*/
+.team{
+    width:100%;
+    display: flex;
+    margin: 100px 0 100px 0; 
+}
+.Container_Team{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Title_SubTitle_Team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+}
+.Title_SubTitle_Team h1{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Helvetica Neue';
+    margin-bottom: 35px;
+}
+.Title_SubTitle_Team p{
+    text-align: justify;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Helvetica Neue';
+    width: 1000px;
+    margin-bottom: 30px;
+}
+
+.Players{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Player_1,.Player_2,.Player_3,.Player_4,.Player_5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.Player_1 img, .Player_2 img, .Player_3 img, .Player_4 img, .Player_5 img{
+    width: 350px;
+    height: 350px;
+    padding: 35px;
+    border-radius: 100%;
+    
+}
+.Player_1 b, .Player_2 b, .Player_3 b, .Player_4 b, .Player_5 b{
+    display: flex;
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.Player_1 p, .Player_2 p, .Player_3 p, .Player_4 p, .Player_5 p{
+    display: flex;
+    width: 220px;
+    height: 140px;
+    margin-left: 3px;
+    font-size: 15px;
+    text-align: justify;
+    color: aliceblue;
+}
+
+/*Parte dos Streams*/
+
+.streams{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.Container_Streams{
+    display: flex;
+    flex-direction: column;
+}
+.Text_Streams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.Text_Streams h1{
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.Text_Streams p{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Helvetica Neue';
+    width: 900px;
+    text-align: justify;
+}
+.Area_Streams{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Streamer_1,.Streamer_2,.Streamer_3,.Streamer_4,.Streamer_5, .Streamer_6, .Streamer_7, .Streamer_8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Streamer_1 img,.Streamer_2 img,.Streamer_3 img,.Streamer_4 img,.Streamer_5 img, .Streamer_6 img, .Streamer_7 img, .Streamer_8 img{
+    width: 350px;
+    height: 350px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-radius: 100%;
+}
+.Streamer_1 p,.Streamer_2 p,.Streamer_3 p,.Streamer_4 p,.Streamer_5 p, .Streamer_6 p, .Streamer_7 p, .Streamer_8 p{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';
+    text-align: justify;
+    color: aliceblue;
+    margin-right: 50px;
+}
+/*Parte dos Patrocinadores*/
+
+.sponsors{
+    display: flex;
+    width: 100%;
+}
+.Container_Sponsors{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.Title_SubTitle_Sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.Title_SubTitle_Sponsors h1{
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 20px;
+}   
+.Title_SubTitle_Sponsors p{
+    color: aliceblue;
+    font-size: 25px;
+    width: 990px;
+    height: 190px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.Area_Sponsors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Sponsors_1 h1,.Sponsors_2 h1,.Sponsors_3 h1,.Sponsors_4 h1,.Sponsors_5 h1, .Sponsors_6 h1, .Sponsors_7 h1, .Sponsors_8 h1{
+    color: aliceblue;
+    margin-left: 90px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.Sponsors_1 img,.Sponsors_2 img,.Sponsors_3 img,.Sponsors_4 img,.Sponsors_5 img, .Sponsors_6 img, .Sponsors_7 img, .Sponsors_8 img{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 100%;
+}
+.Sponsors_1 p,.Sponsors_2 p,.Sponsors_3 p,.Sponsors_4 p,.Sponsors_5 p, .Sponsors_6 p, .Sponsors_7 p, .Sponsors_8 p{
+    color: aliceblue;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 5px;
+    margin-left: 200px;
+    text-align: justify;
+}
+
+/*Parte do Footer*/
+
+.Container_Footer{
+    display: flex;
+    flex-direction: column;
+}
+.Texts_Footer{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+.Texts_Footer p{
+    width: 500px;
+    height: 20px;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: left;
+    margin-bottom: 90px;
+    margin-left: 100px;
+}
+.Logos_Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Logos_Links img{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}  
+
+/*Menu Mobile*/
+
+.button-mobile{
+    display: none;
+    align-self: flex-start;
+    align-items: center;
+    margin: 20px;
+    background: transparent;
+    color: aliceblue;
+    border: 0;
+    top: 0;
+    position: sticky;
+    cursor: pointer;
+}
+.button-mobile span{
+    margin-left: 10px;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.menu-mobile-active{
+    width: 50vw;
+    height: 100vh;
+    background-color: #283649;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.menu-mobile-active button{
+    background: transparent;
+    border: 0;
+    color: aliceblue;
+    margin-bottom: 16px;
+    
+}
+.menu-mobile-active button > span{
+    display: inline-flex;
+    align-items: center;
+    color: aliceblue;
+}
+.menu-mobile-active  i {
+    text-decoration: none;
+    color: aliceblue;
+}
+.mobile-text{
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+
+/*Site para notbook*/
+
+@media (max-width: 1280px){
+    /*Parte do Home*/
+    .Title_Welcome{
+        display: flex;
+        width: 500px;
+        color: aliceblue;
+        font-size: 25px;
+        font-family: 'Helvetica Neue';
+    }
+    
+    .Sub_Title_Welcome{
+        text-align: left;
+        color: aliceblue;
+        font-size: 15px;
+        font-family: 'Helvetica Neue', sans-serif;
+        
+    }
+    .Home_Img img{
+        width: 450px;
+        height: 450px;
+    }
+    
+    /*Parte Sobre*/
+
+    .About_Org p {
+        width: 600px;
+        color: aliceblue;
+        text-align: justify;
+        font-size: 20px;
+        font-family: 'Helvetica Neue', sans-serif;
+        margin-right: 50px;
+    }
+    .Img_Team{
+        display: flex;
+        width: 450px;
+        height: 450px;    
+        margin-left: 80px;
+    }
+
+    /*Parte Jogadores*/
+
+    .Title_SubTitle_Team p{
+        text-align: justify;
+        color: aliceblue;
+        font-size: 20px;
+        font-family: 'Helvetica Neue',sans-serif;
+
+    }
+
+    /*Para parte dos Streamns*/
+
+    .Text_Streams p{
+        color: aliceblue;
+        font-size: 20px;
+        font-family: 'Helvetica Neue', sans-serif;
+        width: 800px;
+        text-align: justify;
+    }
+
+    /* Para parte dos Patrocinadores */
+
+    .Title_SubTitle_Sponsors p{
+        color: aliceblue;
+        width: 800px;
+        text-align: justify;
+        font-size: 20px;
+        font-family: 'Helvetica Neue',sans-serif;
+
+    }
+}
+
+/* Site para Tablet/Ipad */
+
+@media (max-width:834px){
+
+    /*Parte do Home*/
+    .home{
+        margin-bottom: 350px;
+    }
+    .Title_Welcome{
+        width: 300px;
+        font-size: 25px;
+        margin-top: 100px;
+    }
+    .Sub_Title_Welcome{
+        width: 300px;
+        font-size: 15px;
+        text-align: left;
+    }
+    .Home_Img img{
+        width: 300px;
+        height: 300px;
+        margin-left: 80px;
+    }
+
+    /*Parte Sobre*/
+
+    .about{
+        margin-bottom: 300px;
+    }
+    .About_Org p{
+        width: 85%;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 70px;
+    }
+
+    .Img_Team img{
+        width: 300px;
+        height: 300px;
+    }
+
+    /*Parte Jogadores*/
+
+    .team{
+        margin-bottom: 300px;
+    }
+    .Title_SubTitle_Team p {
+        margin: 0;
+        padding: 0;
+        width: 700px;
+        
+    }
+
+    /*Parte Streamns*/
+
+    .streams{
+        margin-bottom: 300px;
+    }
+    
+
+    .Text_Streams p{
+        display: flex;
+        width: 680px;
+        font-size: 20px;
+    }
+    .streams img{
+        width: 280px;
+        height: 280px;
+        margin-left: 50px;
+    }
+    .Streamer_1 p,.Streamer_2 p,.Streamer_3 p,.Streamer_4 p,.Streamer_5 p, .Streamer_6 p, .Streamer_7 p, .Streamer_8 p{
+        margin-left: 60px;
+    }
+
+    
+
+
+    /*Parte Patrocinadores*/
+
+    .sponsors{
+        margin-bottom: 100px;
+    }
+
+    .Title_SubTitle_Sponsors p{
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .s
+    .Area_Sponsors{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .Sponsors_1 h1,.Sponsors_2 h1,.Sponsors_3 h1,.Sponsors_4 h1,.Sponsors_5 h1, .Sponsors_6 h1, .Sponsors_7 h1, .Sponsors_8 h1{
+        color: aliceblue;
+         margin-left: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .Sponsors_1 img,.Sponsors_2 img,.Sponsors_3 img,.Sponsors_4 img,.Sponsors_5 img, .Sponsors_6 img, .Sponsors_7 img, .Sponsors_8 img{
+        width: 250px;
+        height: 250px;
+        margin-left: 30px;
+    }
+    .Sponsors_1 p,.Sponsors_2 p,.Sponsors_3 p,.Sponsors_4 p,.Sponsors_5 p, .Sponsors_6 p, .Sponsors_7 p, .Sponsors_8 p{
+        color: aliceblue;
+        margin-bottom: 10px;
+        margin-left: 75px;
+        font-size: 18px;
+    }
+    
+    /*Parte Footer*/
+    .footer{
+        width: 100%;
+    }
+    .Texts_Footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Texts_Footer p{
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 15px;
+        padding: 10px
+    }
+    .Logos_Links{
+        margin-top: 20px;
+    }
+}
+/*Para Smarthpones e Iphones*/
+
+@media (max-width:480px){ 
+
+    /*Header + Menu Mobile*/
+    
+    .nav{
+        display: none;
+    }
+    .button-mobile{
+        display: flex;
+    }
+    
+
+    /*Inicio*/
+    .Container_Home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+    .Title_SubTitle{
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .Title_Welcome{
+        width: 100%;
+        color: aliceblue;
+        font-size: 1rem;
+        font-family: 'Helvetica Neue';
+    }
+    .Sub_Title_Welcome{
+        text-align: left;
+        color: aliceblue;
+        font-size: 0.6rem;
+        font-family: 'Helvetica Neue';
+        
+    }
+    .Home_Img img{
+        width: 300px ;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+    /*Sobre*/
+   
+    .Sub_Container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .About_Org p {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+        font-family: 'Helvetica Neue';
+    }
+
+    .Img_Team img{
+        margin-left: 40px;
+        width: 300px;
+        height: 300px;
+        
+    }
+
+    /*Players*/
+
+    .Container_Team{
+        width: 100%;
+        margin: 0px;
+    }
+    .Title_SubTitle_Team{
+        margin: 0px;
+    }
+    .Title_SubTitle_Team p{
+        width: 100%;
+        font-size: 1rem;
+        font-family: 'Helvetica Neue';
+        margin: 0px 10px 15px 10px;
+        padding: 15px;
+    }
+
+    /*Streamrs*/
+
+    .Container_Streams{
+        width: 100%;
+        margin: 0px;
+    }
+    .Text_Streams{
+        margin: 0;
+    }
+    .Text_Streams p{
+        width: 100%;
+        font-size: 1rem;
+        font-family: 'Helvetica Neue';
+        padding: 15px;
+    }
+    .Streamer_1 img,.Streamer_2 img,.Streamer_3 img,.Streamer_4 img,.Streamer_5 img, .Streamer_6 img, .Streamer_7 img, .Streamer_8 img{
+        margin: 0 0 5px 0;
+        padding: 20px;
+    }
+    .Streamer_1 p,.Streamer_2 p,.Streamer_3 p,.Streamer_4 p,.Streamer_5 p, .Streamer_6 p, .Streamer_7 p, .Streamer_8 p{
+        margin: 10px 0 10px 0;
+        font-family: 'Helvetica';
+    }
+
+    .Container_Sponsors{
+        width: 100%;
+        margin: 0;
+    }
+    .Title_SubTitle_Sponsors{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .Title_SubTitle_Sponsors p{
+        font-size: 1rem;
+        font-family: 'Helvetica Neue';
+        margin-bottom: 130px;
+    }
+    .Area_Sponsors{
+        display: flex;
+        flex-direction: row;
+    }
+    .Sponsors_1 h1,.Sponsors_2 h1,.Sponsors_3 h1,.Sponsors_4 h1,.Sponsors_5 h1, .Sponsors_6 h1, .Sponsors_7 h1, .Sponsors_8 h1{
+        display: flex;
+        justify-content: center;
+        margin-left: 15px;
+    }
+    .Sponsors_1 img,.Sponsors_2 img,.Sponsors_3 img,.Sponsors_4 img,.Sponsors_5 img, .Sponsors_6 img, .Sponsors_7 img, .Sponsors_8 img{
+        margin-left: 20px;
+    }
+    .Sponsors_1 p,.Sponsors_2 p,.Sponsors_3 p,.Sponsors_4 p,.Sponsors_5 p, .Sponsors_6 p, .Sponsors_7 p, .Sponsors_8 p{
+        margin-bottom: 5px;
+        margin-left: 60px;
+    }
+
+    /*Footer*/
+
+    .Container_Footer{
+        margin: 0;
+        width: 100%;
+    }
+    .Texts_Footer{
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .Texts_Footer p{
+        display: flex;
+        width: 100%;
+        font-size: 0.9rem;
+        margin: 0 0 10px 0;
+        padding: 0px;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .Logos_Links img{
+        margin: 10px 0 50px 25px;
+    } 
+}
