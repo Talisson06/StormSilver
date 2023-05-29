@@ -5,11 +5,13 @@
     outline: 0;
     scroll-behavior:smooth;
     scroll-padding-top: 60px;
+    
    
 }
 body{
     /*background-color: #65727C;*/
     background: linear-gradient(82deg, rgba(62,95,138,1) 13%, rgba(30,31,32,1) 52%, rgba(62,95,138,1) 69%, rgba(30,31,32,1) 77%);
+    
 }
 /*Parte Header*/
 header{
@@ -54,6 +56,7 @@ header{
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin-top: 200px;
 }
 .Title_SubTitle{
     display: flex;
@@ -723,12 +726,12 @@ header{
     }
 
     .Container_Sponsors{
-        width: 100%;
+        
         margin: 0;
     }
     .Title_SubTitle_Sponsors{
-        width: 100%;
-        margin: 0;
+        width: 90vw;
+        margin: 0 0 0 23px;
         padding: 0;
     }
     .Title_SubTitle_Sponsors p{
@@ -744,6 +747,7 @@ header{
         display: flex;
         justify-content: center;
         margin-left: 15px;
+        margin-top: 35px;
     }
     .Sponsors_1 img,.Sponsors_2 img,.Sponsors_3 img,.Sponsors_4 img,.Sponsors_5 img, .Sponsors_6 img, .Sponsors_7 img, .Sponsors_8 img{
         margin-left: 20px;
