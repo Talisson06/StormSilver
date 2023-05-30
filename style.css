@@ -121,9 +121,9 @@ header{
 .About_Org p {
     color: aliceblue;
     text-align: justify;
-    width: 700px;
+    width: 800px;
     font-size: 25px;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica Neue';
     padding-left: 30px;
     margin-right: 50px;
 }
@@ -376,7 +376,7 @@ header{
 
 .menu-mobile-active{
     width: 50vw;
-    height: 100vh;
+    height: 100%;
     background-color: #283649;
     z-index: 99;
     position: fixed;
@@ -544,7 +544,6 @@ header{
         margin-bottom: 300px;
     }
     
-
     .Text_Streams p{
         display: flex;
         width: 680px;
@@ -558,9 +557,6 @@ header{
     .Streamer_1 p,.Streamer_2 p,.Streamer_3 p,.Streamer_4 p,.Streamer_5 p, .Streamer_6 p, .Streamer_7 p, .Streamer_8 p{
         margin-left: 60px;
     }
-
-    
-
 
     /*Parte Patrocinadores*/
 
@@ -632,67 +628,81 @@ header{
     }
     
 
-    /*Inicio*/
+    /*Inicio Mobile*/
     .Container_Home{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 20px;
     }    
     .Title_SubTitle{
         display: flex;
-        margin-top: 50px;
         justify-content: center;
+        align-items: center;
+        margin-left: 20%;
+        text-align: center;
     }
     .Title_Welcome{
-        width: 100%;
         color: aliceblue;
         font-size: 1rem;
         font-family: 'Helvetica Neue';
+        margin-left: 10%;
+        text-align: center;
     }
     .Sub_Title_Welcome{
         text-align: left;
         color: aliceblue;
         font-size: 0.6rem;
         font-family: 'Helvetica Neue';
-        
+        text-align: center;
     }
     .Home_Img img{
-        width: 300px ;
-        height: 300px;
-        margin: 0;
+        width: 350px ;
+        height: 350px;
+        margin-left: 100px;
         padding: 0;
     }
-    /*Sobre*/
+
+    /*Sobre Mobile*/
    
-    .Sub_Container{
+    .Container_About{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10vw;
+    }
+    .Sub_Container{
         flex-direction: column;
+        margin-left: 100px;
+    }
+    .Title_About h1{
+        margin-left: 25vw;
     }
 
     .About_Org p {
-        width: 100%;
-        margin: 0;
+        width: 100vw;
+        margin-left: 20vw;
         padding: 0;
         font-size: 1rem;
         font-family: 'Helvetica Neue';
     }
 
     .Img_Team img{
-        margin-left: 40px;
-        width: 300px;
-        height: 300px;
-        
+        margin-left: 20px;
+        width: 350px;
+        height: 350px;
     }
 
-    /*Players*/
+    /*Players Mobile*/
 
     .Container_Team{
         width: 100%;
         margin: 0px;
     }
     .Title_SubTitle_Team{
-        margin: 0px;
+        width: 100%;
+        margin: 60px;
     }
     .Title_SubTitle_Team p{
         width: 100%;
@@ -701,34 +711,39 @@ header{
         margin: 0px 10px 15px 10px;
         padding: 15px;
     }
+    .Players{
+        margin-left: 150px;
+    }
 
-    /*Streamrs*/
+    /*Streamrs Mobile*/
 
     .Container_Streams{
         width: 100%;
-        margin: 0px;
+        margin: 35vw;
     }
     .Text_Streams{
         margin: 0;
     }
     .Text_Streams p{
-        width: 100%;
+        width: 130%;
         font-size: 1rem;
         font-family: 'Helvetica Neue';
         padding: 15px;
     }
     .Streamer_1 img,.Streamer_2 img,.Streamer_3 img,.Streamer_4 img,.Streamer_5 img, .Streamer_6 img, .Streamer_7 img, .Streamer_8 img{
-        margin: 0 0 5px 0;
+        margin: 15px 0 5px 0;
         padding: 20px;
     }
     .Streamer_1 p,.Streamer_2 p,.Streamer_3 p,.Streamer_4 p,.Streamer_5 p, .Streamer_6 p, .Streamer_7 p, .Streamer_8 p{
-        margin: 10px 0 10px 0;
+        margin: 10px 0 0 0;
         font-family: 'Helvetica';
+        padding: 0;
     }
 
+    /*Patrocinadores Mobile*/
+    
     .Container_Sponsors{
-        
-        margin: 0;
+        margin: 20%;
     }
     .Title_SubTitle_Sponsors{
         width: 90vw;
@@ -756,12 +771,13 @@ header{
     .Sponsors_1 p,.Sponsors_2 p,.Sponsors_3 p,.Sponsors_4 p,.Sponsors_5 p, .Sponsors_6 p, .Sponsors_7 p, .Sponsors_8 p{
         margin-bottom: 5px;
         margin-left: 60px;
+       
     }
 
     /*Footer*/
 
     .Container_Footer{
-        margin: 0;
+        margin: 20%;
         width: 100%;
     }
     .Texts_Footer{
@@ -781,6 +797,6 @@ header{
         
     }
     .Logos_Links img{
-        margin: 10px 0 50px 25px;
+        margin: 10px 0 10px 25px;
     } 
 }
