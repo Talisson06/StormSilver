@@ -719,7 +719,7 @@ header{
 
     .Container_Streams{
         width: 100%;
-        margin: 35vw;
+        margin-left: 35vw;
     }
     .Text_Streams{
         margin: 0;
@@ -743,7 +743,7 @@ header{
     /*Patrocinadores Mobile*/
     
     .Container_Sponsors{
-        margin: 20%;
+        margin-left: 20%;
     }
     .Title_SubTitle_Sponsors{
         width: 90vw;
