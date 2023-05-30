@@ -628,6 +628,7 @@ header{
 
     body{
         width: 100vw;
+        overflow-x: hidden;
     }
     /*Header + Menu Mobile*/
     
