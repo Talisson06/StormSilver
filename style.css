@@ -9,8 +9,8 @@
    
 }
 body{
-    /*background-color: #65727C;*/
-    background: linear-gradient(82deg, rgba(62,95,138,1) 13%, rgba(30,31,32,1) 52%, rgba(62,95,138,1) 69%, rgba(30,31,32,1) 77%);
+   /* background-color: #65727C;*/
+    background: linear-gradient(82deg, rgba(62,95,138,1) 13%, rgba(30,31,32,1) 52%, rgba(62,95,138,1) 69%, rgba(30,31,32,1) 77%); 
     overflow-x: hidden;
     width: 100vw;
 }
@@ -302,6 +302,7 @@ header{
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
+    font-size: 22px;
 }
 .Sponsors_1 img,.Sponsors_2 img,.Sponsors_3 img,.Sponsors_4 img,.Sponsors_5 img, .Sponsors_6 img, .Sponsors_7 img, .Sponsors_8 img{
     width: 350px;
@@ -364,7 +365,6 @@ header{
     border: 0;
     top: 0;
     position: sticky;
-    cursor: pointer;
 }
 .button-mobile span{
     margin-left: 10px;
@@ -378,7 +378,7 @@ header{
     width: 50vw;
     height: 100%;
     background-color: #283649;
-    z-index: 99;
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -627,141 +627,185 @@ header{
 @media (max-width:480px){ 
 
     body{
-        width: 100vw;
-        overflow-x: hidden;
+        overflow-block: hidden;
     }
     /*Header + Menu Mobile*/
-    
     .nav{
-        display: none;
+        display: none; 
     }
     .button-mobile{
-        display: flex;
+        display: flex; 
     }
-    
-
     /*Inicio Mobile*/
+    .home{
+        margin: 0;
+        padding: 0;
+        width: 99vw;
+    }
     .Container_Home{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0;
+        padding: 0;
+        width: 90vw; 
     }    
     .Title_SubTitle{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0;
         text-align: center;
+        width: 98vw;
+        margin: 15px 0 0 55px;
+        padding: 0;
     }
     .Title_Welcome{
         color: aliceblue;
         font-size: 1rem;
         font-family: 'Helvetica Neue';
-        margin-left: 0;
-        justify-content: center;
-        text-align: center;
+        margin: 0; padding: 0;
+        width: 90vw;
+       
     }
     .Sub_Title_Welcome{
-        text-align: left;
         color: aliceblue;
         font-size: 0.6rem;
-        font-family: 'Helvetica Neue';
-        text-align: center;
+        font-family: 'Helvetica NeSue';
+        text-align: left;
+        width: 90vw;
+        margin: 0; padding: 0;
     }
-    .Home_Img img{
-        width: 350px ;
-        height: 350px;
-        margin-left: 0;
-        padding: 0;
+    .Home_Img{
+        margin: 0 ; padding: 0; 
+        
     }
+    
 
     /*Sobre Mobile*/
-   
+   .about{
+    margin: 0;
+    padding: 0; width: 100vw; 
+   }
     .Container_About{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         margin: 0;
+        width: 99vw;
     }
     .Sub_Container{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin: 0;
-    }
-    .Title_About h1{
-        margin: 0;
-    }
-
-    .About_Org p {
-        width: 330px;
         padding: 0;
+        width: 90vw;
+        
+    }
+    .Title_About{
+        margin: 20px; padding: 0;
+    }
+    .About_Org p {
+        width: 95vw;
+        margin: 0;
+        padding-left: 40px;
         font-size: 1rem;
         font-family: 'Helvetica Neue';
-        margin-left: 70px;
     }
-
+    .Img_Team{
+        margin: 0 0 0 60px; padding: 0; 
+        width: 300px;
+        height: 300px;
+        
+    }
     .Img_Team img{
-        margin-left: 20px;
-        width: 350px;
-        height: 350px;
+        margin: 0px ; padding: 0px; ;
     }
 
     /*Players Mobile*/
-
+    .team{margin: 100px 0 0 0; width: 99vw;}
     .Container_Team{
-        width: 100%;
-        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 99vw;
+        margin: 0;
+       
     }
     .Title_SubTitle_Team{
-        width: 100%;
-        margin: 0;
+        width: 90vw;
+        margin: 0; padding: 0;
     }
     .Title_SubTitle_Team p{
-        width: 100%;
+        width: 85vw;
         font-size: 1rem;
         font-family: 'Helvetica Neue';
         margin: 0px 10px 15px 10px;
         padding: 15px;
     }
     .Players{
-        margin-left: 0;
+        margin: 0; padding: 0;
+        width: 99vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Player_1 img, .Player_2 img, .Player_3 img, .Player_4 img, .Player_5 img{
+        width: 200px;
+        height: 200px;
+       margin: 0; padding: 0;
     }
 
     /*Streamrs Mobile*/
-
+    .streams{margin: 0; width: 100vw; }
     .Container_Streams{
-        width: 100%;
-        margin-left: 0;
-    }
-    .Text_Streams{
+        justify-content: center;
+        align-items: center;
+        width: 99vw;
         margin: 0;
     }
+    .Text_Streams{
+        width: 90vw;
+        margin: 0; padding: 0;
+    }
+    
     .Text_Streams p{
         width: 100%;
         font-size: 1rem;
         font-family: 'Helvetica Neue';
-        padding: 15px;
+        margin: 0;  padding: 0;
+    }
+    .Area_Streams{
+        width: 90vw ;   
     }
     .Streamer_1 img,.Streamer_2 img,.Streamer_3 img,.Streamer_4 img,.Streamer_5 img, .Streamer_6 img, .Streamer_7 img, .Streamer_8 img{
-        margin: 15px 0 5px 0;
-        padding: 20px;
+        margin: 15px 0 15px 0; padding: 0px;
+        width: 200px;
+        height: 200px;
     }
     .Streamer_1 p,.Streamer_2 p,.Streamer_3 p,.Streamer_4 p,.Streamer_5 p, .Streamer_6 p, .Streamer_7 p, .Streamer_8 p{
-        margin: 10px 0 0 0;
+        margin: 0;  padding: 0;
         font-family: 'Helvetica';
-        padding: 0;
+        font-size: 1rem;
     }
 
     /*Patrocinadores Mobile*/
-    
+    .sponsors{margin: 100px 0 0 0; width:  99vw;}
     .Container_Sponsors{
-        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;padding: 0;
+        width: 100%;
     }
     .Title_SubTitle_Sponsors{
-        width: 90%;
-        margin: 0 0 0 15px;
+        width: 90vw;
+        margin: 0;
         padding: 0;
+    }
+    .Title_SubTitle_Sponsors h1{
+        font-size: 38px;
     }
     .Title_SubTitle_Sponsors p{
         font-size: 1rem;
@@ -770,27 +814,36 @@ header{
     }
     .Area_Sponsors{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .Sponsors_1 h1,.Sponsors_2 h1,.Sponsors_3 h1,.Sponsors_4 h1,.Sponsors_5 h1, .Sponsors_6 h1, .Sponsors_7 h1, .Sponsors_8 h1{
+    .Sponsors_1, .Sponsors_2, .Sponsors_3,.Sponsors_4,.Sponsors_5{
+        margin: 10px;
+        padding: 10px;
+    }
+    .Sponsors_1 h1,.Sponsors_2 h1,.Sponsors_3 h1,.Sponsors_4 h1,.Sponsors_5 h1{
         display: flex;
         justify-content: center;
-        
+        align-items: center;
+        margin: 0 0 25px 0; padding: 0;
     }
-    .Sponsors_1 img,.Sponsors_2 img,.Sponsors_3 img,.Sponsors_4 img,.Sponsors_5 img, .Sponsors_6 img, .Sponsors_7 img, .Sponsors_8 img{
-        margin-left: 40px;
+    .Sponsors_1 img,.Sponsors_2 img,.Sponsors_3 img,.Sponsors_4 img,.Sponsors_5 img{
+        margin: 0 0 25px 10px;
+        padding: 0;
+        width: 200px;
+        height: 200px;
     }
-    .Sponsors_1 p,.Sponsors_2 p,.Sponsors_3 p,.Sponsors_4 p,.Sponsors_5 p, .Sponsors_6 p, .Sponsors_7 p, .Sponsors_8 p{
-        margin-bottom: 5px;
-        margin-right: 50px;
-       
+    .Sponsors_1 p,.Sponsors_2 p,.Sponsors_3 p,.Sponsors_4 p,.Sponsors_5 p{
+        margin: 0 0 0 20px;
+        font-size: 1rem;
     }
 
     /*Footer*/
-
+    .footer{margin: 0; width: 99vw; }
     .Container_Footer{
-        margin: 0;
-        width: 100%;
+        margin: 0 15px 0 15px;
+        width: 90vw;
     }
     .Texts_Footer{
         color: aliceblue;
@@ -800,15 +853,19 @@ header{
     }
     .Texts_Footer p{
         display: flex;
-        width: 100%;
-        font-size: 0.9rem;
+        width: 330px;
+        font-size: 0.8rem;
         margin: 0 0 10px 0;
         padding: 0px;
         text-align: center;
-        justify-content: center;
-        
+        justify-content: space-evenly;
+    }
+    .Logos_Links{
+        display: flex;
+        justify-content: space-evenly;
     }
     .Logos_Links img{
-        margin: 10px 20px 50px 20px;
+        margin: 0;
+        padding: 0;
     } 
 }
