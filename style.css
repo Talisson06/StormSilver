@@ -9,10 +9,11 @@
    
 }
 body{
-   /* background-color: #65727C;*/
-    background: linear-gradient(82deg, rgba(62,95,138,1) 13%, rgba(30,31,32,1) 52%, rgba(62,95,138,1) 69%, rgba(30,31,32,1) 77%); 
-    overflow-x: hidden;
+    background-color: #606f7d;
+   /* background-color: #1f2124; */
+    /*background: linear-gradient(82deg, rgba(62,95,138,1) 13%, rgba(30,31,32,1) 52%, rgba(62,95,138,1) 69%, rgba(30,31,32,1) 77%); */
     width: 100vw;
+    overflow-x: hidden;
 }
 /*Parte Header*/
 header{
@@ -21,11 +22,12 @@ header{
 }
 
 .nav{
-    background-color: #283649;
+    background-color: #8e9dab;
     width: 100vw;
     height: 60px;
     display: flex;
     justify-content: end;
+    opacity: 90%;
 }
 .nav_list{
     display: flex;
@@ -365,9 +367,15 @@ header{
     border: 0;
     top: 0;
     position: sticky;
+    
 }
 .button-mobile span{
     margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';
+}
+.button-mobile i{
+    font-size: 25px;
 }
 
 .menu-mobile{
@@ -377,7 +385,7 @@ header{
 .menu-mobile-active{
     width: 50vw;
     height: 100%;
-    background-color: #283649;
+    background-color: #8e9dab;
     z-index: 1;
     position: fixed;
     top: 0;
@@ -388,6 +396,7 @@ header{
     justify-content: center;
     overflow: hidden;
     cursor: pointer;
+    opacity: 90%;
 }
 
 .menu-mobile-active button{
